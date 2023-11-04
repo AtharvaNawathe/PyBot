@@ -1,0 +1,72 @@
+Requirements:
+
+1] Computer System with Fast Internet Connection.
+2] Python.
+3] Python Libraries:
+	Pyttsx3
+	Speech_recognition
+	Pywhatkit
+	Pyjokes
+	Pyautogui
+	Wikipedia
+
+
+Features:
+
+1) It will launch notepad by saying "open notepad" in a sentence.
+       It will ask user if he/she want to dictate him to write or not.
+       If user said yes to dictation mode then it will start writing on notepad till the user says "stop writing".
+       If user said no then it will ask is there any other work to do for him?
+          If user says "stop listening" the complete program will terminate effective immediately.
+          If user wants bot in standby mode, user have to say "wait" in a sentence.
+
+2) It will increase volume by 1 if user says "increase volume" or "volume up" in a sentence.
+   Same is for decreasing volume by 1 if user says "decrease volume" or "volume down" in a sentence.
+   Same is to mute the volume completely, user has to say "volume mute" or "mute" in a sentence.
+
+3) It will tell and shows the current day and date by user saying "day" or "date" in sentence.
+
+4) It will search any type of file, the user has to say "search file" in a sentence.
+   It will ask to enter the complete filename with extension, then it will ask to enter disk-partition name (i.e. C,D,E,F,G)
+   It will scan the entered partition for file and if found tells the exact loccation and opens the file. If not found it will ask to enter another partition of disk.
+
+5) It will launch command prompt if user says "open command prompt" in a sentence.
+
+6) It can launch system camera to click photos by saying "open camera" in a sentence.
+
+7) It can tell temperature of a any city/region in the world by saying "temperature" in a sentence.
+     It will ask temperature of which city? then the user tells name of the city and he will tell the temperature.
+
+8) It can tell the system's exact IP Address, user just have to say "ip address" in a sentence.
+
+9) It can fetch any information from Wikipedia, user just have to say "[subject] wikipedia" in a sentence.
+     The above mentioned [subject] is the topic or name or anything of ehich user needs information from Wikipedia.
+
+10) It can load any website on the system's default web browser, user just have to say "open website" in a sentence.
+      Then it will ask which website to open and the user will say the specific website and it will be launched.
+
+11) It can close any running application which is displayed on screen, user just have to say "close application" in a sentence.
+
+12) It can search and open google website with results according to users query, user just have to say "open google" in a sentence.
+    It will ask user what to search on google, user just have to say the query which he/she want to search on google and the related results will be displayed on screen.
+
+13) It can close the current using tab of browser, user just have to say "close current tab" in a sentence.
+
+14) It can play any Youtube video directly by just saying "video on youtube" in a sentence.
+    It will ask which video to play? user will answer with the name of the desired video.
+
+15) It can set reminder, user just have to say "timer" or "stopwatch" in a sentence.
+    It will ask for how many minutes? user have to give answer in minutes and the bot will remind user after specified minutes by saying "Sir I am reminding you, your set time is finished".
+
+16) It will be in standby mode (just listening and recognizing) by saying "wait" in a sentence.
+    User have to say "ok listen" in a sentence to deactivate the standby mode and to give more tasks.
+
+17) It can tell jokes, user just have to say "joke" in a sentence.
+
+18) It can tell top 10 trending headlines of news, user just have to say "news" in a sentence.
+
+19) It can switch windows (applications) by just saying "change window" in a sentence.
+
+20) It can shutdown, restart, sleep the computer system by saying "shut down the system", "restart the system", "sleep the system" respectively.
+
+21) The program will get terminated by saying "stop listening" in a sentence.
